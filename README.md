@@ -65,4 +65,12 @@ Once the application is running, you can access the interactive **Swagger UI** f
    cd order-processing-system
    mvn clean package
    java -jar target/peerislands_assignment-0.0.1-SNAPSHOT.jar
+   ```
+
+#### Endpoints we should be able to use locally:
+- **Swagger UI**: http://localhost:8080/swagger-ui/index.html
+- **OpenAPI JSON**: http://localhost:8080/v3/api-docs
+- **Actuator health**: http://localhost:8080/actuator/health
+- **Actuator info**: http://localhost:8080/actuator/info
+- **Actuator metrics**: http://localhost:8080/actuator/metrics
 
